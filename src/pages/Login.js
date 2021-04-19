@@ -6,7 +6,7 @@ import axios from "axios";
 import "../css/Login.css";
 
 function Login(props) {
-  const baseUrl = "https://apigestoress.azurewebsites.net/api/usuarios";
+  const baseUrl = "https://api-web-gestores.azurewebsites.net/api/usuarios";
   const cookies = new Cookies();
 
   const [form, setForm] = useState({
